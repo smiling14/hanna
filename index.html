@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UV-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Products</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#nutrition">Nutrition Facts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+   <!-- ---------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/coffee.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Coffee Crisps</h1>
+                    <p>Coffee crisps is a kind of snack that made out of coffee. It also have different flavors that starts with cheese. These coffee crisps is especially made from organic coffee bean that can totally be your snack and also you wake up drink.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------sevices------------ -->
+<div id="product">
+    <div class="container">
+        <h1 class="sub-title">Other Products</h1>
+        <div class="services-list">
+            <div>
+                <img src="images/kape.jpg">
+                <p>This website will contain the Areas 1-9 of the research guides and other document for it to make sure that the files will be restored and can be easily access by the teacher education department professors and students or even students from other courses.</p>
+                <a href="#"><h2>Try it Now</h2></a>
+            </div>
+            <div>
+                <img src="images/matiks.jpg">
+                <p>This website will manage the documents from the teacher education department that will be transferred from hard copy into soft copy files to be put in different folders to be organized.</p>
+                <a href="#"><h2>Try it Now</h2></a>
+            </div>
+            <div>
+                <img src="images/back.jpg">
+                <p>This website is not just to back up files and store document files but to secure the files from viruses and other malfunction errors experiencing from the internet. it will contain a sign in and sign up for confirming that your are capable to access the web.</p>
+                <a href="#"><h2>Try it Now</h2></a>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ---------nutrition facts-------------- -->
+<div id="nutrition">
+    <div class="container">
+        <div id="facts">
+            <h1>Nutrition Facts</h1>
+            <h2>Ingredients;</h2>
+            <p>Coffee are caffeine, tannin, fixed oil, carbohydrates, and protein. It contains 2-3% caffeine, 3-5% tannins, 13% proteins, and 10-15% fixed oils. In the seeds, caffeine is present as a salt of chlorogenic acid (CGA). Also it contains oil.</p>
+        </div>
+    </div>
+</div>
+<!-- ---------contact-------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us!</h1>
+                <p><i class="fas fa-paper-plane"></i>hello@coffeecrisps.com</p>
+                <p><i class="fas fa-paper-plane"></i>coffeecrisps.com</p>
+                <p><i class="fa-sharp fa-solid fa-location-dot"></i>Purok 1, Barayong Ligao City</p>
+                <p><i class="fas fa-phone-square-alt"></i>09662177113</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/Valerie Rinon Palima/Mhel Jan Suya"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <ul>
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+        </ul> 
+    </div>
+</div>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
